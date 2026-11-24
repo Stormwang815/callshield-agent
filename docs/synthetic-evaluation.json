@@ -1,0 +1,70 @@
+{
+  "scope": "Synthetic cases, rules only; excludes audio, ASR, network and device latency.",
+  "cases": [
+    {
+      "case": "Bank impersonation and code request",
+      "expected": "HIGH",
+      "actual": "HIGH",
+      "passed": true,
+      "rule_graph_ms": 3.063
+    },
+    {
+      "case": "Support impersonation and code request",
+      "expected": "HIGH",
+      "actual": "HIGH",
+      "passed": true,
+      "rule_graph_ms": 0.724
+    },
+    {
+      "case": "Remote access",
+      "expected": "HIGH",
+      "actual": "HIGH",
+      "passed": true,
+      "rule_graph_ms": 0.582
+    },
+    {
+      "case": "Urgent payment",
+      "expected": "HIGH",
+      "actual": "HIGH",
+      "passed": true,
+      "rule_graph_ms": 0.584
+    },
+    {
+      "case": "Credential request",
+      "expected": "HIGH",
+      "actual": "HIGH",
+      "passed": true,
+      "rule_graph_ms": 0.597
+    },
+    {
+      "case": "Anti-fraud warning",
+      "expected": "LOW",
+      "actual": "LOW",
+      "passed": true,
+      "rule_graph_ms": 0.55
+    },
+    {
+      "case": "Benign mention of a bank",
+      "expected": "LOW",
+      "actual": "LOW",
+      "passed": true,
+      "rule_graph_ms": 0.56
+    },
+    {
+      "case": "Multilingual anti-fraud warning",
+      "expected": "LOW",
+      "actual": "LOW",
+      "passed": true,
+      "rule_graph_ms": 0.584
+    },
+    {
+      "case": "No speech",
+      "expected": "UNKNOWN",
+      "actual": "UNKNOWN",
+      "passed": true,
+      "rule_graph_ms": 0.542
+    }
+  ],
+  "passed": 9,
+  "total": 9
+}

@@ -1,0 +1,24 @@
+{
+  "input": "macOS synthetic voice, not a telephone recording",
+  "asr_model": "tiny (local CPU int8)",
+  "transcript": "This is Amazon Customer Support. Please tell me your verification code now.",
+  "decision": {
+    "risk_score": 0.92,
+    "risk_level": "HIGH",
+    "should_notify": true,
+    "uncertain": false,
+    "reasons": [
+      "Request for a verification code",
+      "Claimed bank, support, or public-agency identity (unverified)"
+    ],
+    "threshold": 0.75,
+    "recommended_actions": [
+      "Do not share verification codes or passwords",
+      "End the call and verify through an independently located official channel"
+    ],
+    "writeback": "suspicious"
+  },
+  "node_count": 5,
+  "temporary_audio_deleted": true,
+  "live_llm_used": false
+}
